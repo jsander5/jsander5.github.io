@@ -1,6 +1,7 @@
 .site-title a,.post-title a,.post-meta a
 {
   color: #db8500;
+  font-family: 'Lato', sans-serif;
 }
 
 a {
