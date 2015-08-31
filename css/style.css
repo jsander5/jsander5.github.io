@@ -7,7 +7,7 @@
 /* Modify Site Articles, Headers, and Blog Elements */
 article { font-family: 'Merriweather', sans-serif; font-size: 12pt; }
 header { margin-top: -10px; margin-bottom: 30px; padding-bottom: 8px; }
-h1.site-title { font-family: 'Lato', sans-serif; text-shadow: 2px 2px rgba(134, 137, 185, 0.6); font-size: 40px !important; }
+h1.site-title { font-family: 'Lato', sans-serif; font-size: 40px !important; }
 .site-title a,.post-title a,.post-meta a { color: #db8500; font-family: 'Lato', sans-serif; }
 p.site-title-ruler-p { padding-bottom: 0; margin-bottom: 0; text-align: center; }
 img.site-title-ruler-img { border: 0; width: 100%; height: auto; }
@@ -35,7 +35,6 @@ h1.post-title { padding-bottom: 12px; border-bottom: 1px solid #ededed; }
 img.post-title-icon { width: 50px; height: 50px; border-radius: 0 !important; float: right; padding: 6px; }
 
 /* Container Backgrounds */
-div.container { background: rgba(255, 255, 255, 0.86) !important; }
 body { background-color: #373b44; color: #ddddd0; }
 
 /* Container Widths */
