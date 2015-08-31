@@ -12,7 +12,7 @@ a {
 
 a:hover,a:focus,.post-title a:hover,.post-meta a:hover
 {
-    color: white;
+    color: #ddddd0;
     text-decoration: none;
 }
 
