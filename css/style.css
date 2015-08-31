@@ -5,11 +5,9 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:100,400,700|Merriweather:400,300,700);
 
 /* Modify Site Articles, Headers, and Blog Elements */
-article { font-family: 'Merriweather', sans-serif; font-size: 12pt; }
+article { font-family: 'Merriweather', sans-serif; font-weight: 300; font-size: 12pt; }
 header { margin-top: -10px; margin-bottom: 30px; padding-bottom: 8px; }
-.site-title a,.post-title a,.post-meta a { color: #db8500; font-family: 'Lato', sans-serif; }
-p.site-title-ruler-p { padding-bottom: 0; margin-bottom: 0; text-align: center; }
-img.site-title-ruler-img { border: 0; width: 100%; height: auto; }
+.site-title a,.post-title a,.post-meta a { color: #db8500; font-family: 'Lato', sans-serif; font-weight: 400; }
 a { color: #db8500; border-bottom: 2px solid #db8500; text-decoration: none; }
 a:hover,a:focus,.post-title a:hover,.post-meta a:hover { color: white; text-decoration: none; }
 blockquote { border-left: 9px solid #db8500; }
