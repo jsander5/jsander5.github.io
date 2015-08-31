@@ -5,9 +5,9 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:100,400,700|Merriweather:400,300,700);
 
 /* Modify Site Articles, Headers, and Blog Elements */
-article { font-family: 'Open Sans', sans-serif; font-size: 12pt; }
+article { font-family: 'Merriweather', sans-serif; font-size: 12pt; }
 header { margin-top: -10px; margin-bottom: 30px; padding-bottom: 8px; }
-h1.site-title { font-family: 'Gochi Hand', cursive; text-shadow: 2px 2px rgba(134, 137, 185, 0.6); font-size: 40px !important; }
+h1.site-title { font-family: 'Lato', sans-serif; text-shadow: 2px 2px rgba(134, 137, 185, 0.6); font-size: 40px !important; }
 .site-title a,.post-title a,.post-meta a { color: #db8500; font-family: 'Lato', sans-serif; }
 p.site-title-ruler-p { padding-bottom: 0; margin-bottom: 0; text-align: center; }
 img.site-title-ruler-img { border: 0; width: 100%; height: auto; }
@@ -23,7 +23,7 @@ blockquote { border-left: 9px solid #db8500; }
 
 /* Site Header */
 header { margin-bottom: -25px; }
-.site-tagline { font-family: 'Gochi Hand', cursive; color: Navy; font-style: normal !important; text-shadow: 2px 2px rgba(5, 46, 255, 0.16); font-size: 15pt; }
+.site-tagline { font-family: 'Lato', sans-serif; color: Navy; font-style: normal !important; text-shadow: 2px 2px rgba(5, 46, 255, 0.16); font-size: 15pt; }
 a.read-more:after { content: " \00BB"; }
 .author-bio h3 { text-shadow: 2px 2px rgba(0, 0, 0, 0.37); }
 article img { border-radius: 20px; }
