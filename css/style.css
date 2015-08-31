@@ -18,8 +18,8 @@ blockquote { border-left: 9px solid #db8500; }
 /* Site Navigation Backgrounds and Color Changes */
 .site-nav { padding: 5px; padding-top: 0; background: #ddddd0 !important; border-radius: 10px; }
 .site-nav > ul { padding: 0; margin: 0; padding-top: 6px; padding-bottom: 3px; }
-.site-nav > ul > li > a { text-shadow: 2px 2px rgba(185, 189, 255, 0.6); color: Navy; padding: 5px; padding-left: 12px; padding-right: 12px; }
-.site-nav > ul > li > a:hover { border-radius: 10px; background: rgba(255, 255, 255, 0.7); }
+.site-nav > ul > li > a { text-shadow: 2px 2px #000000; color: #db8500; padding: 5px; padding-left: 12px; padding-right: 12px; }
+.site-nav > ul > li > a:hover { border-radius: 10px; background: #373b44; }
 
 /* Site Header */
 header { margin-bottom: -25px; }
