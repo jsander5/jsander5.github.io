@@ -1,28 +1,57 @@
-.site-title a,.post-title a,.post-meta a
-{
-  color: #db8500;
-  font-family: 'Lato', sans-serif;
-}
+/* Typed Blog Style Sheet | Copyright 2015 Athletic Trainer Weekly | All Rights Reserved. */
 
-a {
-    color: #db8500;
-    border-bottom: 2px solid #db8500;
-    text-decoration: none;
-}
+/* Import Fonts */
+@import url(https://fonts.googleapis.com/css?family=Lato:100,400,700|Merriweather:400,300,700);
 
-a:hover,a:focus,.post-title a:hover,.post-meta a:hover
-{
-    color: white;
-    text-decoration: none;
-}
+/* Modify Site Articles, Headers, and Blog Elements */
+article { font-family: 'Open Sans', sans-serif; font-size: 12pt; }
+header { margin-top: -10px; margin-bottom: 30px; padding-bottom: 8px; }
+h1.site-title { font-family: 'Gochi Hand', cursive; text-shadow: 2px 2px rgba(134, 137, 185, 0.6); font-size: 40px !important; }
+.site-title a,.post-title a,.post-meta a { color: #db8500; font-family: 'Lato', sans-serif; }
+p.site-title-ruler-p { padding-bottom: 0; margin-bottom: 0; text-align: center; }
+img.site-title-ruler-img { border: 0; width: 100%; height: auto; }
+a { color: #db8500; border-bottom: 2px solid #db8500; text-decoration: none; }
+a:hover,a:focus,.post-title a:hover,.post-meta a:hover { color: white; text-decoration: none; }
+blockquote { border-left: 9px solid #db8500; }
 
-blockquote
-{
-  border-left: 9px solid #db8500;
-}
+/* Site Navigation Backgrounds and Color Changes */
+.site-nav { padding: 5px; padding-top: 0; background: rgba(141, 175, 232, 0.65) !important; border-radius: 10px; }
+.site-nav > ul { padding: 0; margin: 0; padding-top: 6px; padding-bottom: 3px; }
+.site-nav > ul > li > a { text-shadow: 2px 2px rgba(185, 189, 255, 0.6); color: Navy; padding: 5px; padding-left: 12px; padding-right: 12px; }
+.site-nav > ul > li > a:hover { border-radius: 10px; background: rgba(255, 255, 255, 0.7); }
 
-body 
-{
-  background-color: #373b44;
-  color: #ffffff;
-}
+/* Site Header */
+header { margin-bottom: -25px; }
+.site-tagline { font-family: 'Gochi Hand', cursive; color: Navy; font-style: normal !important; text-shadow: 2px 2px rgba(5, 46, 255, 0.16); font-size: 15pt; }
+a.read-more:after { content: " \00BB"; }
+.author-bio h3 { text-shadow: 2px 2px rgba(0, 0, 0, 0.37); }
+article img { border-radius: 20px; }
+article h1, h2, h3, h4 { text-shadow: 2px 2px rgba(0, 0, 0, 0.3); }
+article p { text-align: justify; line-height: 200%; }
+footer { margin-bottom: 25px; }
+.post-author { border-bottom: 0px !important; }
+h1.post-title { padding-bottom: 12px; border-bottom: 1px solid #ededed; }
+img.post-title-icon { width: 50px; height: 50px; border-radius: 0 !important; float: right; padding: 6px; }
+
+/* Container Backgrounds */
+div.container { background: rgba(255, 255, 255, 0.86) !important; }
+body { background-color: #373b44; color: #ddddd0; }
+
+/* Container Widths */
+div.container { padding: 25px; padding-left: 30px; padding-right: 30px; max-width: 1040px !important; width: auto !important; }
+
+/* Comments Section */
+div.blog-comments { border-top: 1px solid #ededed; padding-top: 48px; }
+div.blog-comments img.blog-comments-icon { width: 60px; height: auto !important; }
+div.blog-comments h2 { font-size: 20pt; }
+
+/*
+ Padding Fixes
+ */
+body { padding-left: 25px; padding-right: 25px; }
+
+
+
+
+
+
