@@ -13,7 +13,7 @@ h1.site-title a { background-image: url(https://jsander5.github.io/images/ATCWee
 .post-meta { visibility: hidden; }
 a { color: #db8500; border-bottom: 2px solid #db8500; text-decoration: none; }
 a:hover,a:focus,.post-title a:hover,.post-meta a:hover { color: white; text-decoration: none; }
-blockquote { border-left: 9px solid #db8500; }
+blockquote { border-left: 9px solid #db8500; background-color: #ddddd0; }
 .post-content,.post-excerpt { color: #ddddd0; font-family: 'Merriweather', serif; font-weight: 300; font-size: 14pt; }
 
 /* Site Navigation Backgrounds and Color Changes */
