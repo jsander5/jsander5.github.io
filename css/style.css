@@ -10,7 +10,8 @@ header { margin-top: -10px; margin-bottom: 30px; padding-bottom: 8px; }
 h1.site-title a { background-image: url(https://jsander5.github.io/images/ATCWeekly%20Logo_400.png); display: block; margin: 0 auto; text-indent: 200%; overflow: hidden; white-space: nowrap; width: 400px; height: 275px; }
 
 .post-title,.post-title a { color: #db8500; font-family: 'Merriweather', serif; font-weight: 400; }
-.post-meta { visibility: hidden; }
+.post-meta,.page-title,.page-title a { visibility: hidden; }
+
 a { color: #db8500; border-bottom: 2px solid #db8500; text-decoration: none; }
 a:hover,a:focus,.post-title a:hover,.post-meta a:hover { color: white; text-decoration: none; }
 blockquote { border-left: 9px solid #db8500; border-right: 9px solid #db8500; border-radius: 5px; background-color: #ddddd0; color: #db8500; }
