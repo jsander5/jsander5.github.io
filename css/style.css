@@ -26,7 +26,7 @@ a.read-more:after { content: " \00BB"; }
 .author-bio h3 { text-shadow: 2px 2px rgba(0, 0, 0, 0.37); }
 article img { border-radius: 20px; }
 article h1, h2, h3, h4 { text-shadow: 2px 2px rgba(0, 0, 0, 0.3); }
-article p { text-align: justify; line-height: 135%; }
+article p { text-align: justify; line-height: 150%; }
 footer { margin-bottom: 25px; }
 .post-author { border-bottom: 0px !important; }
 h1.post-title { padding-bottom: 12px; border-bottom: 1px solid #ededed; }
