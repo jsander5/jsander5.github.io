@@ -9,14 +9,14 @@ article { font-family: 'Merriweather', serif; font-weight: 300; font-size: 12pt;
 header { margin-top: -10px; margin-bottom: 30px; padding-bottom: 8px; }
 h1.site-title a { background-image: url(https://jsander5.github.io/images/ATCWeekly%20Logo_400.png); display: block; margin: 0 auto; text-indent: 200%; overflow: hidden; white-space: nowrap; width: 400px; height: 275px; }
 
-.post-title a,.post-meta a { color: #db8500; font-family: 'Lato', sans-serif; font-weight: 400; }
+.post-title a,.post-meta a { color: #db8500; font-family: 'Merriweather', serif; font-weight: 400; }
 a { color: #db8500; border-bottom: 2px solid #db8500; text-decoration: none; }
 a:hover,a:focus,.post-title a:hover,.post-meta a:hover { color: white; text-decoration: none; }
 blockquote { border-left: 9px solid #db8500; }
 
 /* Site Navigation Backgrounds and Color Changes */
 .site-nav > ul { padding: 0; margin: 0; padding-top: 6px; padding-bottom: 3px; }
-.site-nav > ul > li > a { font-family: 'Merriweather', serif; font-weight: 300; font-size: 12pt; color: #db8500; text-decoration: none; padding: 5px; padding-left: 12px; padding-right: 12px; }
+.site-nav > ul > li > a { font-family: 'Lato', sans-serif; font-weight: 300; font-size: 12pt; color: #db8500; text-decoration: none; padding: 5px; padding-left: 12px; padding-right: 12px; }
 .site-nav > ul > li > a:hover { text-decoration: underline; color: #ddddd0; }
 
 /* Site Header */
