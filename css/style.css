@@ -17,7 +17,7 @@ blockquote { border-left: 9px solid #db8500; }
 /* Site Navigation Backgrounds and Color Changes */
 .site-nav > ul { padding: 0; margin: 0; padding-top: 6px; padding-bottom: 3px; }
 .site-nav > ul > li > a { font-family: 'Lato', sans-serif; font-weight: 300; font-size: 18pt; color: #db8500; text-decoration: none; padding: 5px; padding-left: 12px; padding-right: 12px; }
-.site-nav > ul > li > a:hover { text-decoration: underline; color: #ddddd0; }
+.site-nav > ul > li > a:hover { text-decoration: underline; color: #db8500; }
 
 /* Site Header */
 header { margin-bottom: -25px; }
