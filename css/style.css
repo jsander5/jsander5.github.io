@@ -7,7 +7,7 @@
 /* Modify Site Articles, Headers, and Blog Elements */
 article { font-family: 'Merriweather', serif; font-weight: 300; font-size: 12pt; }
 header { margin-top: -10px; margin-bottom: 30px; padding-bottom: 8px; }
-h1.site-title a { background-image: url(https://jsander5.github.io/images/ATCWeekly%20Logo_400.png); display: block; margin: 0 auto; text-indent: 200%; overflow: hidden; white-space: nowrap; width: 400px; height: 275px; }
+h1.site-title a { background-image: url(https://jsander5.github.io/images/ATCWeekly%20Logo_400.png); background-size: 10em 5em; background-repeat: no-repeat; background-color: transparent; display: block; margin: 0 auto; text-indent: 200%; overflow: hidden; white-space: nowrap; width: 10em; height: 5em; }
 
 .post-title,.post-title a { color: #db8500; font-family: 'Merriweather', serif; font-weight: 400; }
 .post-meta,.page-title,.page-title a { visibility: hidden; margin-top: -40px; }
