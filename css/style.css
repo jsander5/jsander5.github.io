@@ -11,6 +11,7 @@ header { margin-top: -10px; margin-bottom: 30px; padding-bottom: 8px; }
 h1.site-title a { background-image: url(https://jsander5.github.io/images/ATCWeekly%20Logo_250.png); display: block; margin: 0 auto; text-indent: 200%; overflow: hidden; white-space: nowrap; width: 250px; height: 162px; }
 footer { font-family:'Lato', 'Helvetica', sans-serif; font-size:10pt; margin-bottom: 25px; color: #ddddd0; }
 footer a { color: #db8500; }
+footer a:hover { text-decoration: underline; }
 
 .post-title,.post-title a { color: #db8500; font-family: 'Merriweather', serif; font-weight: 400; }
 .post-meta,.page-title,.page-title a { visibility: hidden; margin-top: -40px; }
