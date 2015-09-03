@@ -19,7 +19,6 @@ a:hover,a:focus,.post-title a:hover,.post-meta a:hover { color: white; text-deco
 blockquote { border-left: 9px solid #db8500; border-right: 9px solid #db8500; border-radius: 5px; background-color: #ddddd0; color: #db8500; }
 footer { font-family:'Lato', 'Helvetica', sans-serif; font-size:10pt; margin-bottom: 25px; color: #ddddd0; }
 footer a { color: #db8500; }
-footer p a:hover { color: #db8500; text-decoration: underline; }
 
 
 /* Post Elements */
