@@ -1,44 +1,43 @@
-<<<<<<< HEAD
 /* Typed Blog Style Sheet | Copyright 2015 Athletic Trainer Weekly | All Rights Reserved. */
 
 /* Import Fonts */
 @import url(https://fonts.googleapis.com/css?family=Lato:100,400,700|Merriweather:400,300,700);
 
+
 /* Modify Site Articles, Headers, and Blog Elements */
 body { background-color: #373b44; color: #ddddd0; padding-left: 15px; padding-right: 15px; }
+div.container { padding: 25px; padding-left: 5px; padding-right: 5px; max-width: 1600px !important; width: auto !important; }
 article { font-family: 'Merriweather', serif; font-weight: 300; font-size: 12pt; }
+
+
+/* Site Header */
 header { margin-top: -10px; margin-bottom: 30px; padding-bottom: 8px; }
 h1.site-title a { background-image: url(https://jsander5.github.io/images/ATCWeekly%20Logo_250.png); display: block; margin: 0 auto; text-indent: 200%; overflow: hidden; white-space: nowrap; width: 250px; height: 162px; }
+.site-tagline { font-family: 'Lato', sans-serif; color: Navy; font-style: normal !important; text-shadow: 2px 2px rgba(5, 46, 255, 0.16); font-size: 15pt; }
+a { color: #db8500; border-bottom: 2px solid #db8500; text-decoration: none; }
+a:hover,a:focus,.post-title a:hover,.post-meta a:hover { color: white; text-decoration: none; }
+blockquote { border-left: 9px solid #db8500; border-right: 9px solid #db8500; border-radius: 5px; background-color: #ddddd0; color: #db8500; }
 footer { font-family:'Lato', 'Helvetica', sans-serif; font-size:10pt; margin-bottom: 25px; color: #ddddd0; }
 footer a { color: #db8500; }
 footer a:hover { text-decoration: underline; }
 
+
+/* Post Elements */
 .post-title,.post-title a { color: #db8500; font-family: 'Merriweather', serif; font-weight: 400; }
 .post-meta,.page-title,.page-title a { visibility: hidden; margin-top: -40px; }
-
-a { color: #db8500; border-bottom: 2px solid #db8500; text-decoration: none; }
-a:hover,a:focus,.post-title a:hover,.post-meta a:hover { color: white; text-decoration: none; }
-blockquote { border-left: 9px solid #db8500; border-right: 9px solid #db8500; border-radius: 5px; background-color: #ddddd0; color: #db8500; }
 .post-content,.post-excerpt,.page-content { color: #ddddd0; font-family: 'Merriweather', serif; font-weight: 300; font-size: 14pt; }
+.post-author { border-bottom: 0px !important; }
+h1.post-title { padding-bottom: 12px; border-bottom: 1px solid #ededed; }
+img.post-title-icon { width: 50px; height: 50px; border-radius: 0 !important; float: right; padding: 6px; }
+.author-bio h3 { text-shadow: 2px 2px rgba(0, 0, 0, 0.37); }
+article img { border-radius: 20px; }
+article h1, h2, h3, h4 { text-shadow: 2px 2px rgba(0, 0, 0, 0.3); }
+article p { text-align: justify; line-height: 150%; }
+a.read-more:after { content: " \00BB"; }
+
 
 /* Site Navigation Backgrounds and Color Changes */
 .site-nav > ul { padding: 0; margin: 0; padding-top: 6px; padding-bottom: 3px; }
 .site-nav > ul > li > a { font-family: 'Lato', sans-serif; font-weight: 300; font-size: 18pt; color: #db8500; text-decoration: none; padding: 5px; padding-left: 12px; padding-right: 12px; }
 .site-nav > ul > li > a:hover { text-decoration: underline; color: #db8500; }
 .site-nav a:hover,.site-nav a:focus { background: #373b44; color: #db8500; }
-
-
-/* Site Header */
-.site-tagline { font-family: 'Lato', sans-serif; color: Navy; font-style: normal !important; text-shadow: 2px 2px rgba(5, 46, 255, 0.16); font-size: 15pt; }
-a.read-more:after { content: " \00BB"; }
-.author-bio h3 { text-shadow: 2px 2px rgba(0, 0, 0, 0.37); }
-article img { border-radius: 20px; }
-article h1, h2, h3, h4 { text-shadow: 2px 2px rgba(0, 0, 0, 0.3); }
-article p { text-align: justify; line-height: 150%; }
-.post-author { border-bottom: 0px !important; }
-h1.post-title { padding-bottom: 12px; border-bottom: 1px solid #ededed; }
-img.post-title-icon { width: 50px; height: 50px; border-radius: 0 !important; float: right; padding: 6px; }
-
-/* Container Widths */
-div.container { padding: 25px; padding-left: 5px; padding-right: 5px; max-width: 1600px !important; width: auto !important; }
-
