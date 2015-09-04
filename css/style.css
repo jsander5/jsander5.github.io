@@ -9,7 +9,7 @@ body { background-color: #373b44; color: #ddddd0; padding-left: 15px; padding-ri
 div.container { padding: 25px; padding-left: 5px; padding-right: 5px; max-width: 1600px !important; width: auto !important; }
 article { font-family: 'Merriweather', serif; font-weight: 300; font-size: 12pt; }
 
-p > img { border:0; outline:0; width: 110px; height: 110px; float: left; margin-right: 20px; margin-bottom: 80px; }
+p > img { border:0; outline:0; width: 110px; height: 110px; float: right; margin-right: 20px; margin-bottom: 80px; }
 
 
 /* Site Header */
@@ -28,6 +28,7 @@ footer a:hover { color: #db8500; text-decoration: underline; }
 .post-title,.post-title a { color: #db8500; font-family: 'Merriweather', serif; font-weight: 400; font-size: 14pt; }
 .post-meta,.page-title,.page-title a { visibility: hidden; margin-top: -40px; }
 .post-content,.post-excerpt,.page-content { color: #ddddd0; font-family: 'Merriweather', serif; font-weight: 300; font-size: 10pt; }
+.post-excerpt img { max-width: 300px; }
 .post-author { border-bottom: 0px !important; }
 h1.post-title { padding-bottom: 12px; border-bottom: 1px solid #ededed; }
 img.post-title-icon { width: 50px; height: 50px; border-radius: 0 !important; float: right; padding: 6px; }
