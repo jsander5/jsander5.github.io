@@ -40,7 +40,7 @@ h1.post-title { padding-bottom: 2px; border-bottom: 1px solid #ededed; }
 h1.post-title a { color: #db8500; font-family: 'Merriweather', serif; font-weight: 400; font-size: 14pt; }
 .post-meta { visibility: hidden; margin-top: -40px; }
 .post-content,.post-excerpt { color: #ddddd0; font-family: 'Merriweather', serif; font-weight: 300; font-size: 10pt; }
-.post-excerpt img { max-width: 300px; float: right; }
+.post-excerpt img { max-width: 300px; }
 .post-author { border-bottom: 0px !important; }
 img.post-title-icon { width: 50px; height: 50px; border-radius: 0 !important; float: right; padding: 6px; }
 .author-bio h3 { text-shadow: 2px 2px rgba(0, 0, 0, 0.37); }
@@ -59,5 +59,8 @@ a.read-more:after { content: " \00BB"; }
 @media (max-width: 768px) {
   .site-nav > ul > li > a { 
     font-weight: 400; 
+  }
+  .post-excerpt img { 
+    float: right; 
   }
 }
