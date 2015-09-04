@@ -26,7 +26,7 @@ footer a:hover { color: #db8500; text-decoration: underline; }
 .post-title,.post-title a { color: #db8500; font-family: 'Merriweather', serif; font-weight: 400; font-size: 14pt; }
 .post-meta,.page-title,.page-title a { visibility: hidden; margin-top: -40px; }
 .post-content,.post-excerpt,.page-content { color: #ddddd0; font-family: 'Merriweather', serif; font-weight: 300; font-size: 10pt; }
-.post-excerpt img { padding-left: 20px; min-width: 150px; max-width: 300px; }
+.post-excerpt img { padding-left: 50px; min-width: 150px; max-width: 300px; }
 .post-author { border-bottom: 0px !important; }
 h1.post-title { padding-bottom: 12px; border-bottom: 1px solid #ededed; }
 img.post-title-icon { width: 50px; height: 50px; border-radius: 0 !important; float: right; padding: 6px; }
