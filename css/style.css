@@ -58,7 +58,8 @@ a.read-more:after { content: " \00BB"; }
 /* Responsive Design */
 @media (max-width: 768px) {
   .site-nav > ul > li > a { 
-    font-weight: 400; 
+    font-weight: 400;
+    font-size: 14px; 
   }
   .post-excerpt img { 
     float: right; 
